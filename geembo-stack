@@ -1,0 +1,10 @@
+Section: main
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: geembo-stack
+Version: 1.0
+Maintainer: Angel Avgerinos <evaggelos.avgerinos@gmail.com>
+Depends: redis-server, postgresql, postgresql-client, nginx
+Architecture: all
+Description: Simple meta-package with geembo stack
